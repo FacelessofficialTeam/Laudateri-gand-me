@@ -1,12 +1,12 @@
 from telethon import TelegramClient, events
 
-api_id = 26025426  # Your provided API ID
-api_hash = '16fcb1405a69012b66895bfbe8fe45f2'  # Your provided API Hash
+api_id =  # Your provided API ID
+api_hash =  # Your provided API Hash
 
 client = TelegramClient('flood_bot', api_id, api_hash)
 client.start()
 
-target_channel = '@teambdcyberninja'  # Victim's Telegram channel
+target_channel = ''  # Victim's Telegram channel
 
 # Function to flood the channel with spam
 @client.on(events.NewMessage)
